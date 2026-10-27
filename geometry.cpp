@@ -14,3 +14,8 @@ void rotate(double x, double y, double angle_deg, double& rx, double& ry) {
     rx = x * std::cos(rad) - y * std::sin(rad);
     ry = x * std::sin(rad) + y * std::cos(rad);
 }
+void scale(double& x, double& y, double factor) {
+    x *= factor;
+    y *= factor;
+}
+
